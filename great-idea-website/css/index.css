@@ -76,6 +76,7 @@ header {
 
 nav {
   width: 80%;
+  display: inline-block;
 }
 
 nav a {
@@ -88,8 +89,9 @@ nav a ~ a {
 }
 
 .logo {
-  float: right;
+  display: inline-block;
   width: 20%;
+  vertical-align: middle;
 }
 
 .logo img {
