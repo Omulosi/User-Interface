@@ -64,3 +64,112 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+header {
+  height: 10vh;
+  line-height: 10vh;
+}
+
+nav {
+  width: 80%;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(100,100,100, 0.6);
+}
+
+nav a ~ a {
+  padding-left: 5em;
+}
+
+.logo {
+  float: right;
+  width: 20%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* Hero section */
+.hero {
+  width: 100%;
+  margin-top: 3em;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 3.5em;
+}
+
+.hero > div {
+  width: 50%;
+  display: inline-block;
+}
+.hero-text {
+  vertical-align: top;
+  padding-top: 2em;
+}
+
+.hero-text p {
+  font-size: 5.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-wrap: wrap;
+}
+
+.btn {
+  border: 1px solid black;
+  background: none;
+  padding: 10px 30px;
+  letter-spacing: 5px;
+  margin-top: 16px;
+}
+
+/* Introduction */
+.intro {
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
+.intro > div {
+  width: 50%;
+  display: inline-block;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+/* Informational */
+.info {
+  margin-top: 2em;
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid black;
+}
+
+.info > div {
+  display: inline-block;
+  width: 33.33%;
+}
+
+/* Footer section */
+footer {
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
+footer address > p {
+  margin-bottom: 13px;
+}
+
+footer > p {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+
+}
